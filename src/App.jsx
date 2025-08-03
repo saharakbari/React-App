@@ -9,7 +9,7 @@ export default function App(){
     return (
 <div  style={{margin: "100px"}}>
  <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />}  />
       <Route path="/cart" element={<Cart />} />
     </Routes>
     </div>
