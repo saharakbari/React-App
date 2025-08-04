@@ -20,19 +20,20 @@ A modern shopping web application built with **React**, **Redux Toolkit**, and *
 - [Vite](https://vitejs.dev/)
 - [React Router](https://reactrouter.com/) *(if used)*
 - [Docker](https://www.docker.com/)
-- [ESLint](https://eslint.org/)
 - [JavaScript] (or TypeScript if used)
 
-  ## 🐳 Docker Support
+## 🐳 Docker Support
 
 This app is fully containerized. You can run it with:
 
-```bash
-docker build -t react-shopping-app .
-docker run -p 3000:80 react-shopping-app
+
+docker build -t React-App .
+
+docker run -p 3000:80 React-App
 
 
-🔁 CI/CD Pipeline
+
+## 🔁 CI/CD Pipeline
 This project includes a GitHub Actions workflow that:
 
 Installs dependencies
@@ -51,18 +52,18 @@ Workflow file: .github/workflows/ci.yml
 
 ### 1. Clone the repo
 
-```bash
+
 git clone https://github.com/your-username/react-shopping-app.git
 cd react-shopping-app
 
 
-2. Install dependencies
+### 2. Install dependencies
 npm install
 
-3. Run the app
+### 3. Run the app
 npm run dev
 
-4. Build for production
+### 4. Build for production
 npm run build
 
 📌 Notes
