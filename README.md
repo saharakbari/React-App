@@ -36,6 +36,7 @@ Option 2: Use prebuilt Docker image (.tar)
 If you have the Docker image exported as a .tar file (e.g., react-shopping-app.tar), you can load and run it:
 
 docker load -i my-react-app.tar
+
 docker run -p 3000:80 React-App
 
 
