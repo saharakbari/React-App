@@ -12,6 +12,7 @@ A modern shopping web application built with **React**, **Redux Toolkit**, and *
 - 📁 Component-based architecture
 - 📦 Dockerized setup for easy deployment
 - 🔁 CI/CD pipeline using GitHub Actions
+- 📦 Prebuilt Docker image file (`.tar`) available
 
 ## 📦 Tech Stack
 
@@ -29,6 +30,12 @@ This app is fully containerized. You can run it with:
 
 docker build -t React-App .
 
+docker run -p 3000:80 React-App
+
+Option 2: Use prebuilt Docker image (.tar)
+If you have the Docker image exported as a .tar file (e.g., react-shopping-app.tar), you can load and run it:
+
+docker load -i my-react-app.tar
 docker run -p 3000:80 React-App
 
 
