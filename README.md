@@ -8,7 +8,6 @@ A modern shopping web application built with **React**, **Redux Toolkit**, and *
 - 🛒 Add to cart and cart management
 - 💾 State management with Redux Toolkit
 - ⚡ Fast refresh and build with Vite
-- ✅ ESLint integration for code quality
 - 📁 Component-based architecture
 - 📦 Dockerized setup for easy deployment
 - 🔁 CI/CD pipeline using GitHub Actions
