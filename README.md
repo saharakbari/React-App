@@ -33,7 +33,7 @@ docker build -t React-App .
 docker run -p 3000:80 React-App
 
 Option 2: Use prebuilt Docker image (.tar)
-If you have the Docker image exported as a .tar file (e.g., react-shopping-app.tar), you can load and run it:
+If you have the Docker image exported as a .tar file (e.g., my-react-app.tar), you can load and run it:
 
 docker load -i my-react-app.tar
 
@@ -61,8 +61,8 @@ Workflow file: .github/workflows/ci.yml
 ### 1. Clone the repo
 
 
-git clone https://github.com/your-username/react-shopping-app.git
-cd react-shopping-app
+git clone https://github.com/saharakbari/React-App.git
+cd React-App
 
 
 ### 2. Install dependencies
